@@ -1,0 +1,41 @@
+.bg-custom{
+	background-color:#303f9f;
+}
+
+.navbar .nav-item:hover .nav-link{
+	background-color:white;
+	color:#303f9f;
+	border-radius:15px;
+}
+
+.carousel-caption h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.custom-img {
+    height: auto;
+    width: 100%; 
+    object-fit: cover; 
+    max-height: 270px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel-caption h2 {
+    color: #0000FF; /* This is blue */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Add text shadow for readability */
+}
+
+.carousel-caption p {
+    color: #FFFFFF; /* Example: White for paragraph text */
+}
+
+
